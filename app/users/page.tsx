@@ -13,7 +13,7 @@ const UsersPage = async () => {
   return (
     <>
       <h1>Users</h1>
-      <table>
+      <table className="table table-bordered">
         <tr>
           <th>Name</th>
           <th>Email</th>
