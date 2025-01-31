@@ -12,10 +12,12 @@ const UserTable = async () => {
 
   return (
     <table className="table table-bordered">
-      <tr>
-        <th>Name</th>
-        <th>Email</th>
-      </tr>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
       <tbody>
         {users.map((user) => (
           <tr key={user.id}>
